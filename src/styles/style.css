@@ -30,6 +30,7 @@ body {
 
 .logo {
   font-size: 38px;
+  font-size: clamp(3rem, 8vw, 3.75rem);
   margin: 0;
   margin: 10px 0;
   font-family: var(--display-font);
@@ -48,6 +49,7 @@ body {
   padding: 10px 20px;
   cursor: pointer;
   font-size: 18px;
+  font-size: clamp(1.125rem, 2vw, 1.5rem);
   transition: border-color 0.2s ease;
 }
 
