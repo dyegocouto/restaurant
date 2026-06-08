@@ -1,3 +1,4 @@
+import "../styles/home.css";
 import view from "../assets/view.png";
 
 export function loadHome() {
