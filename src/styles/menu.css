@@ -13,6 +13,10 @@
   width: min(18rem, 100%);
 }
 
+.menu-section h2 {
+  font-size: clamp(1.625rem, 3vw, 1.75rem);
+}
+
 .menu-section ul {
   list-style-type: none;
   padding: 0;
