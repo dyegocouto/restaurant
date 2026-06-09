@@ -4,11 +4,9 @@ import view from "../assets/view.png";
 export function loadHome() {
   const app = document.querySelector("#app");
   app.innerHTML = `<main class="main">
-          <article class="article">
-            <div class="article-info">
-              <h2>
-                Lorem ipsum dolor sit amet, consectetur adipiscing.
-              </h2>
+          <article class="home-article">
+            <div class="home-article__info">
+              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing.</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 et ultrices augue, vitae sollicitudin odio. Cras.
@@ -18,7 +16,11 @@ export function loadHome() {
                 <span class="highlight">Nunc sed.</span>
               </p>
             </div>
-            <img class="article-image" src="${view}" alt="Breathtaking view from the outer plaza." />
+            <img
+              class="home-article__image"
+              src="../restaurant/src/assets/view.png"
+              alt="Breathtaking view from the outer plaza."
+            />
           </article>
         </main>`;
 }
