@@ -1,5 +1,4 @@
 .menu-article {
-  background-color: #d7b3a1;
   padding: clamp(1.5rem, 4vw, 4rem);
 
   display: grid;
