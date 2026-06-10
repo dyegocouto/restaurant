@@ -18,7 +18,7 @@ export function loadHome() {
             </div>
             <img
               class="home-article__image"
-              src="../restaurant/src/assets/view.png"
+              src="${view}"
               alt="Breathtaking view from the outer plaza."
             />
           </article>
