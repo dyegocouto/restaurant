@@ -11,6 +11,6 @@
 }
 
 .about-section__text {
-  font-size: clamp(1.1px, 2vw, 19px);
+  font-size: clamp(1rem, 2vw, 1.1875rem);
   max-width: 60ch;
 }
