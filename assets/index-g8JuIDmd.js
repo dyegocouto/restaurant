@@ -1,4 +1,4 @@
-(function(){let e=document.createElement(`link`).relList;if(e&&e.supports&&e.supports(`modulepreload`))return;for(let e of document.querySelectorAll(`link[rel="modulepreload"]`))n(e);new MutationObserver(e=>{for(let t of e)if(t.type===`childList`)for(let e of t.addedNodes)e.tagName===`LINK`&&e.rel===`modulepreload`&&n(e)}).observe(document,{childList:!0,subtree:!0});function t(e){let t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin===`use-credentials`?t.credentials=`include`:e.crossOrigin===`anonymous`?t.credentials=`omit`:t.credentials=`same-origin`,t}function n(e){if(e.ep)return;e.ep=!0;let n=t(e);fetch(e.href,n)}})();function e(){let e=document.querySelector(`#app`);e.innerHTML=`<main class="main">
+(function(){let e=document.createElement(`link`).relList;if(e&&e.supports&&e.supports(`modulepreload`))return;for(let e of document.querySelectorAll(`link[rel="modulepreload"]`))n(e);new MutationObserver(e=>{for(let t of e)if(t.type===`childList`)for(let e of t.addedNodes)e.tagName===`LINK`&&e.rel===`modulepreload`&&n(e)}).observe(document,{childList:!0,subtree:!0});function t(e){let t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin===`use-credentials`?t.credentials=`include`:e.crossOrigin===`anonymous`?t.credentials=`omit`:t.credentials=`same-origin`,t}function n(e){if(e.ep)return;e.ep=!0;let n=t(e);fetch(e.href,n)}})();var e=`/restaurant/assets/view-zLV7YgoA.png`;function t(){let t=document.querySelector(`#app`);t.innerHTML=`<main class="main">
           <article class="home-article">
             <div class="home-article__info">
               <h2>Lorem ipsum dolor sit amet, consectetur adipiscing.</h2>
@@ -13,11 +13,11 @@
             </div>
             <img
               class="home-article__image"
-              src="../restaurant/src/assets/view.png"
+              src="${e}"
               alt="Breathtaking view from the outer plaza."
             />
           </article>
-        </main>`}function t(){let e=document.querySelector(`#app`);e.innerHTML=`<main class="main">
+        </main>`}function n(){let e=document.querySelector(`#app`);e.innerHTML=`<main class="main">
           <article class="menu-article">
             <div class="menu-section">
               <h2>Appetizers</h2>
@@ -68,7 +68,7 @@
               </ul>
             </div>
           </article>
-        </main>`}function n(){let e=document.querySelector(`#app`);e.innerHTML=`<main class="main">
+        </main>`}function r(){let e=document.querySelector(`#app`);e.innerHTML=`<main class="main">
           <article class="about-article">
             <div class="about-section">
               <h2 class="about-section__title">Our story</h2>
@@ -100,4 +100,4 @@
               <p class="about-section__text">Saturday: 12:00 PM - 10:00 PM</p>
             </div>
           </article>
-        </main>`}document.addEventListener(`DOMContentLoaded`,()=>e()),document.querySelector(`.home`).addEventListener(`click`,()=>e()),document.querySelector(`.menu`).addEventListener(`click`,()=>t()),document.querySelector(`.about`).addEventListener(`click`,()=>n());
+        </main>`}document.addEventListener(`DOMContentLoaded`,()=>t()),document.querySelector(`.home`).addEventListener(`click`,()=>t()),document.querySelector(`.menu`).addEventListener(`click`,()=>n()),document.querySelector(`.about`).addEventListener(`click`,()=>r());
